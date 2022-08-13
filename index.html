@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <title>DrivenEats</title>
+</head>
+<body>
+    
+    <div class="topo">
+        <h1>DrivenEats</h1>
+        <h2>Sua comida em 6 minutos</h2>
+    </div>
+    <div class="prato-principal">
+        <h3>Primeiro, seu prato</h3>
+        <div class="opcoes">
+            <div class="opcao" onclick="selecionarPrato(this)">
+                <img src="./img/frango_yin_yang 1.png">
+                <h4>Frango Yin Yang</h4>
+                <p>Um pouco de batata, um pouco de salada</p>
+                <div class="check">
+                    <h5>R$25,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarPrato(this)">
+                <img src="./img/asinha.png">
+                <h4>Asinha de frango picante</h4>
+                <p>Melhor parte do frango com pimenta</p>
+                <div class="check">
+                    <h5>R$27,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarPrato(this)">
+                <img src="./img/frango.png" >
+                <h4>Frango Assado</h4>
+                <p>Frangossauro</p>
+                <div class="check">
+                    <h5>R$32,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarPrato(this)">
+                <img src="./img/yaki.png" alt="">
+                <h4>Yakissoba de Frango</h4>
+                <p>Com legumes refogados e shoyu</p>
+                <div class="check">
+                    <h5>R$26,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bebidas">
+        <h3>Agora, sua bebida</h3>
+        <div class="opcoes">
+            <div class="opcao" onclick="selecionarBebida(this)">
+                <img src="./img/coquinha_gelada 1.png">
+                <h4>Coquinha gelada</h4>
+                <p>Lata 350ml</p>
+                <div class="check">
+                    <h5>R$4,90</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarBebida(this)">
+                <img src="./img/guarana.png" >
+                <h4>Guaraná Antártica</h4>
+                <p>Lata 350ml</p>
+                <div class="check">
+                    <h5>R$4,90</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarBebida(this)">
+                <img src="./img/citrus.png" >
+                <h4>Schweppes citrus</h4>
+                <p>Lata 350ml</p>
+                <div class="check">
+                    <h5>R$4,90</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarBebida(this)">
+                <img src="./img/gas.png">
+                <h4>Água com gás</h4>
+                <p>Garrafa 500ml</p>
+                <div class="check">
+                    <h5>R$5,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarBebida(this)">
+                <img src="./img/laranja.png">
+                <h4>Suco Natural de laranja</h4>
+                <p>500ml</p>
+                <div class="check">
+                    <h5>R$8,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sobremesa">
+        <h3>Por fim, sua sobremesa</h3>
+        <div class="opcoes">
+            <div class="opcao" onclick="selecionarSobremesa(this)">
+                <img src="./img/pudim 1.png">
+                <h4>Pudim</h4>
+                <p>Apenas pudim</p>
+                <div class="check">
+                <h5>R$<span>8</span>,00</h5>
+                <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+            <div class="opcao" onclick="selecionarSobremesa(this)">
+                <img src="./img/bolo.png" >
+                <h4>Bolo de Chocolate</h4>
+                <p>Fatia cremosa</p>
+                <div class="check">
+                    <h5>R$<span>8</span>,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+            </div>
+            <div class="opcao" onclick="selecionarSobremesa(this)">
+                <img src="./img/petit.png" >
+                <h4>Petit Gateau</h4>
+                <p>Acompanha sorvete de creme</p>
+                <div class="check">
+                    <h5>R$<span>10</span>,00</h5>
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+            </div>
+            <div class="opcao" onclick="selecionarSobremesa(this)">
+                <img src="./img/limao.png" >
+                <h4>Torta de limão</h4>
+                <p>Fatia generosa!</p>
+                <div class="check">
+                    <h5>R$<span>7</span>,00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pedido">
+        <div class="botao">
+            <h6>Selecione os 3 itens<br>
+            para fechar o pedido</h6>
+        </div>
+        <div class="fechar">
+            <h2>Fechar o pedido</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
