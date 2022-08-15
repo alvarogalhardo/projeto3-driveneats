@@ -18,39 +18,39 @@
     <div class="prato-principal">
         <h3>Primeiro, seu prato</h3>
         <div class="opcoes">
-            <div class="opcao" onclick="selecionarPrato(this)">
+            <div class="opcao" onclick="selecionarPrato(this,'umPrato','nomeUmPrato')">
                 <img src="./img/frango_yin_yang 1.png">
-                <h4>Frango Yin Yang</h4>
+                <h4 class="nomeUmPrato">Frango Yin Yang</h4>
                 <p>Um pouco de batata, um pouco de salada</p>
                 <div class="check">
-                    <h5>R$25,00</h5>
+                    <h5>R$<span class="umPrato">25</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarPrato(this)">
-                <img src="./img/asinha.png">
-                <h4>Asinha de frango picante</h4>
+            <div class="opcao" onclick="selecionarPrato(this,'doisPrato','nomeDoisPrato')">
+                <img src="./img/asinha.png" >
+                <h4 class="nomeDoisPrato">Asinha de frango picante</h4>
                 <p>Melhor parte do frango com pimenta</p>
                 <div class="check">
-                    <h5>R$27,00</h5>
+                    <h5 >R$<span class="doisPrato">27</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarPrato(this)">
+            <div class="opcao" onclick="selecionarPrato(this,'tresPrato','nomeTresPrato')">
                 <img src="./img/frango.png" >
-                <h4>Frango Assado</h4>
+                <h4 class="nomeTresPrato">Frango Assado</h4>
                 <p>Frangossauro</p>
                 <div class="check">
-                    <h5>R$32,00</h5>
+                    <h5>$<span class="tresPrato">32</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarPrato(this)">
-                <img src="./img/yaki.png" alt="">
-                <h4>Yakissoba de Frango</h4>
+            <div class="opcao" onclick="selecionarPrato(this,'quatroPrato','nomeQuatroPrato')">
+                <img src="./img/yaki.png">
+                <h4 class="nomeQuatroPrato">Yakissoba de Frango</h4>
                 <p>Com legumes refogados e shoyu</p>
                 <div class="check">
-                    <h5>R$26,00</h5>
+                    <h5>R$<span class="quatroPrato">26</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
@@ -59,48 +59,48 @@
     <div class="bebidas">
         <h3>Agora, sua bebida</h3>
         <div class="opcoes">
-            <div class="opcao" onclick="selecionarBebida(this)">
+            <div class="opcao" onclick="selecionarBebida(this,'umBebida','nomeUmBebida')">
                 <img src="./img/coquinha_gelada 1.png">
-                <h4>Coquinha gelada</h4>
+                <h4 class="nomeUmBebida">Coquinha gelada</h4>
                 <p>Lata 350ml</p>
                 <div class="check">
-                    <h5>R$4,90</h5>
+                    <h5>R$<span class="umBebida">5</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarBebida(this)">
+            <div class="opcao" onclick="selecionarBebida(this,'doisBebida','nomeDoisBebida')">
                 <img src="./img/guarana.png" >
-                <h4>Guaraná Antártica</h4>
+                <h4 class="nomeDoisBebida">Guaraná Antártica</h4>
                 <p>Lata 350ml</p>
                 <div class="check">
-                    <h5>R$4,90</h5>
+                    <h5>R$<span class="doisBebida">5</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarBebida(this)">
+            <div class="opcao" onclick="selecionarBebida(this,'tresBebida','nomeTresBebida')">
                 <img src="./img/citrus.png" >
-                <h4>Schweppes citrus</h4>
+                <h4 class="nomeTresBebida">Schweppes citrus</h4>
                 <p>Lata 350ml</p>
                 <div class="check">
-                    <h5>R$4,90</h5>
+                    <h5>R$<span class="tresBebida">5</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarBebida(this)">
+            <div class="opcao" onclick="selecionarBebida(this,'quatroBebida','nomeQuatroBebida')">
                 <img src="./img/gas.png">
-                <h4>Água com gás</h4>
+                <h4 class="nomeQuatroBebida">Água com gás</h4>
                 <p>Garrafa 500ml</p>
                 <div class="check">
-                    <h5>R$5,00</h5>
+                    <h5>R$<span class="quatroBebida">5</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarBebida(this)">
+            <div class="opcao" onclick="selecionarBebida(this,'cincoBebida','nomeCincoBebida')">
                 <img src="./img/laranja.png">
-                <h4>Suco Natural de laranja</h4>
+                <h4 class="nomeCincoBebida">Suco Natural de laranja</h4>
                 <p>500ml</p>
                 <div class="check">
-                    <h5>R$8,00</h5>
+                    <h5>R$<span class="cincoBebida">8</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
@@ -109,39 +109,39 @@
     <div class="sobremesa">
         <h3>Por fim, sua sobremesa</h3>
         <div class="opcoes">
-            <div class="opcao" onclick="selecionarSobremesa(this)">
+            <div class="opcao" onclick="selecionarSobremesa(this,'umSobre','nomeUmSobre')">
                 <img src="./img/pudim 1.png">
-                <h4>Pudim</h4>
+                <h4 class="nomeUmSobre">Pudim</h4>
                 <p>Apenas pudim</p>
                 <div class="check">
-                <h5>R$<span>8</span>,00</h5>
+                <h5>R$<span class="umSobre">8</span>,00</h5>
                 <ion-icon name="checkmark-circle"></ion-icon>
                 </div>
             </div>
-            <div class="opcao" onclick="selecionarSobremesa(this)">
+            <div class="opcao" onclick="selecionarSobremesa(this,'doisSobre','nomeDoisSobre')">
                 <img src="./img/bolo.png" >
-                <h4>Bolo de Chocolate</h4>
+                <h4 class="nomeDoisSobre">Bolo de Chocolate</h4>
                 <p>Fatia cremosa</p>
                 <div class="check">
-                    <h5>R$<span>8</span>,00</h5>
+                    <h5>R$<span class="doisSobre">8</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                     </div>
             </div>
-            <div class="opcao" onclick="selecionarSobremesa(this)">
+            <div class="opcao" onclick="selecionarSobremesa(this,'tresSobre','nomeTresSobre')">
                 <img src="./img/petit.png" >
-                <h4>Petit Gateau</h4>
+                <h4 class="nomeTresSobre">Petit Gateau</h4>
                 <p>Acompanha sorvete de creme</p>
                 <div class="check">
-                    <h5>R$<span>10</span>,00</h5>
+                    <h5>R$<span class="tresSobre">10</span>,00</h5>
                     <ion-icon name="checkmark-circle"></ion-icon>
                     </div>
             </div>
-            <div class="opcao" onclick="selecionarSobremesa(this)">
+            <div class="opcao" onclick="selecionarSobremesa(this,'quatroSobre','nomeQuatroSobre')">
                 <img src="./img/limao.png" >
-                <h4>Torta de limão</h4>
+                <h4 class="nomeQuatroSobre">Torta de limão</h4>
                 <p>Fatia generosa!</p>
                 <div class="check">
-                    <h5>R$<span>7</span>,00</h5>
+                    <h5>R$<span class="quatroSobre">7</span>,00</h5>
                 </div>
             </div>
         </div>
@@ -151,8 +151,8 @@
             <h6>Selecione os 3 itens<br>
             para fechar o pedido</h6>
         </div>
-        <div class="fechar">
-            <h2>Fechar o pedido</h2>
+        <div class="fechar escondido" onclick="wpp(this,precoPrato,precoBebida,precoSobre,nomePrato,nomeBebida,nomeSobre)">
+            <h2>Fechar pedido</h2>
         </div>
     </div>
     <script src="script.js"></script>

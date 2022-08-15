@@ -58,8 +58,8 @@ img {
     height: 87px;
 }
 ion-icon {
-    width: 16px;
-    height: 16px;
+    width: 17px;
+    height: 17px;
     color: #32b72f;
 }
 .topo{
@@ -111,6 +111,7 @@ ion-icon {
 .opcao ion-icon {
     display:none;
 }
+
 .check {
     width: 100%;
     display: flex;
@@ -133,10 +134,36 @@ ion-icon {
     align-items: center;
     justify-content: center;
 }
-.selecionado {
+.selecionadoPrato {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
     border-radius: 9px;
 }
-.selecionado ion-icon {
+.selecionadoPrato ion-icon {
     display: initial;
+}
+.selecionadoBebida {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px;
+}
+.selecionadoBebida ion-icon {
+    display: initial;
+}
+.selecionadoSobre {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    border-radius: 9px;
+}
+.selecionadoSobre ion-icon {
+    display: initial;
+}
+.fechar {
+    background-color: #32b72f;
+    height: 61px;
+    margin: 15px 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.escondido {
+    display: none;
 }
