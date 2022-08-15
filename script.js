@@ -105,5 +105,5 @@ function selecionarBebida (opcao,b,nome){
     const link = `https://wa.me/5532999891014?text=${mensagem}`;
     console.log(link);
     window.open(link);
-
+    
  }
